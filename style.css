@@ -79,6 +79,7 @@
     ::-webkit-scrollbar-thumb:hover {
         background: #555; 
     }
+
     #col1 img{
         width: 30px;
         height: 30px;
@@ -129,3 +130,60 @@
         height: 30px;
         margin-right: 10px;
     }
+
+    @media only screen and (max-width:900px){
+    #myTable{
+        border-collapse:collapse;
+    }
+    .searchbar{
+        width: 360px;
+    }
+    #searchBtn{
+        margin:10px
+    }
+    #row1{
+        margin-left: 10rem;
+    }
+     img{
+        display:none;
+    }
+    #col4{
+        display: none;
+    }
+    #col14{
+        display: none;
+    }
+    #col24{
+        display: none;
+    }
+    #col34{
+        display: none;
+    }
+    #col44{
+        display: none;
+    }
+    #col54{
+        display: none;
+    }
+    #col64{
+        display: none;
+    }
+    #col74{
+        display: none;
+    }
+    #col84{
+        display: none;
+    }
+    #col84{
+        display: none;
+    }
+    #col94{
+        display: none;
+    }
+    #col04{
+        display: none;
+    }
+    tr{
+        margin-left: 2rem;
+    }
+}
