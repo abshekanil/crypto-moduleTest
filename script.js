@@ -295,299 +295,290 @@ let arr = [
   },
 ];
 
-let table = document.getElementById('myTable');
-let row1 = document.getElementById('row1');
-let col1 = document.getElementById('col1');
-let col2 = document.getElementById('col2');
-let col3 = document.getElementById('col3');
-let col4 = document.getElementById('col4');
-let col5 = document.getElementById('col5');
-let col6 = document.getElementById('col6');
-let col7 = document.getElementById('col7');
+let mktCapBtn = document.getElementById("mktCapBtn");
+let percentageBtn = document.getElementById("percentageBtn");
 
-let row2 = document.getElementById('row2');
-let col21 = document.getElementById('col21');
-let col22 = document.getElementById('col22');
-let col23 = document.getElementById('col23');
-let col24 = document.getElementById('col24');
-let col25 = document.getElementById('col25');
-let col26 = document.getElementById('col26');
-let col27 = document.getElementById('col27');
+let table = document.getElementById("myTable");
+let row1 = document.getElementById("row1");
+let col1 = document.getElementById("col1");
+let col2 = document.getElementById("col2");
+let col3 = document.getElementById("col3");
+let col4 = document.getElementById("col4");
+let col5 = document.getElementById("col5");
+let col6 = document.getElementById("col6");
+let col7 = document.getElementById("col7");
 
-let row3 = document.getElementById('row3');
-let col31 = document.getElementById('col31');
-let col32 = document.getElementById('col32');
-let col33 = document.getElementById('col33');
-let col34 = document.getElementById('col34');
-let col35 = document.getElementById('col35');
-let col36 = document.getElementById('col36');
-let col37 = document.getElementById('col37');
+let row2 = document.getElementById("row2");
+let col21 = document.getElementById("col21");
+let col22 = document.getElementById("col22");
+let col23 = document.getElementById("col23");
+let col24 = document.getElementById("col24");
+let col25 = document.getElementById("col25");
+let col26 = document.getElementById("col26");
+let col27 = document.getElementById("col27");
 
-let row4 = document.getElementById('row4');
-let col41 = document.getElementById('col41');
-let col42 = document.getElementById('col42');
-let col43 = document.getElementById('col43');
-let col44 = document.getElementById('col44');
-let col45 = document.getElementById('col45');
-let col46 = document.getElementById('col46');
-let col47 = document.getElementById('col47');
+let row3 = document.getElementById("row3");
+let col31 = document.getElementById("col31");
+let col32 = document.getElementById("col32");
+let col33 = document.getElementById("col33");
+let col34 = document.getElementById("col34");
+let col35 = document.getElementById("col35");
+let col36 = document.getElementById("col36");
+let col37 = document.getElementById("col37");
 
-let row5 = document.getElementById('row5');
-let col51 = document.getElementById('col51');
-let col52 = document.getElementById('col52');
-let col53 = document.getElementById('col53');
-let col54 = document.getElementById('col54');
-let col55 = document.getElementById('col55');
-let col56 = document.getElementById('col56');
-let col57 = document.getElementById('col57');
+let row4 = document.getElementById("row4");
+let col41 = document.getElementById("col41");
+let col42 = document.getElementById("col42");
+let col43 = document.getElementById("col43");
+let col44 = document.getElementById("col44");
+let col45 = document.getElementById("col45");
+let col46 = document.getElementById("col46");
+let col47 = document.getElementById("col47");
 
-let row6 = document.getElementById('row6');
-let col61 = document.getElementById('col61');
-let col62 = document.getElementById('col62');
-let col63 = document.getElementById('col63');
-let col64 = document.getElementById('col64');
-let col65 = document.getElementById('col65');
-let col66 = document.getElementById('col66');
-let col67 = document.getElementById('col67');
+let row5 = document.getElementById("row5");
+let col51 = document.getElementById("col51");
+let col52 = document.getElementById("col52");
+let col53 = document.getElementById("col53");
+let col54 = document.getElementById("col54");
+let col55 = document.getElementById("col55");
+let col56 = document.getElementById("col56");
+let col57 = document.getElementById("col57");
 
-let row7 = document.getElementById('row7');
-let col71 = document.getElementById('col71');
-let col72 = document.getElementById('col72');
-let col73 = document.getElementById('col73');
-let col74 = document.getElementById('col74');
-let col75 = document.getElementById('col75');
-let col76 = document.getElementById('col76');
-let col77 = document.getElementById('col77');
+let row6 = document.getElementById("row6");
+let col61 = document.getElementById("col61");
+let col62 = document.getElementById("col62");
+let col63 = document.getElementById("col63");
+let col64 = document.getElementById("col64");
+let col65 = document.getElementById("col65");
+let col66 = document.getElementById("col66");
+let col67 = document.getElementById("col67");
 
-let row8 = document.getElementById('row8');
-let col81 = document.getElementById('col81');
-let col82 = document.getElementById('col82');
-let col83 = document.getElementById('col83');
-let col84 = document.getElementById('col84');
-let col85 = document.getElementById('col85');
-let col86 = document.getElementById('col86');
-let col87 = document.getElementById('col87');
+let row7 = document.getElementById("row7");
+let col71 = document.getElementById("col71");
+let col72 = document.getElementById("col72");
+let col73 = document.getElementById("col73");
+let col74 = document.getElementById("col74");
+let col75 = document.getElementById("col75");
+let col76 = document.getElementById("col76");
+let col77 = document.getElementById("col77");
 
-let row9 = document.getElementById('row9');
-let col91 = document.getElementById('col91');
-let col92 = document.getElementById('col92');
-let col93 = document.getElementById('col93');
-let col94 = document.getElementById('col94');
-let col95 = document.getElementById('col95');
-let col96 = document.getElementById('col96');
-let col97 = document.getElementById('col97');
+let row8 = document.getElementById("row8");
+let col81 = document.getElementById("col81");
+let col82 = document.getElementById("col82");
+let col83 = document.getElementById("col83");
+let col84 = document.getElementById("col84");
+let col85 = document.getElementById("col85");
+let col86 = document.getElementById("col86");
+let col87 = document.getElementById("col87");
 
-let row10 = document.getElementById('row10');
-let col01 = document.getElementById('col01');
-let col02 = document.getElementById('col02');
-let col03 = document.getElementById('col03');
-let col04 = document.getElementById('col04');
-let col05 = document.getElementById('col05');
-let col06 = document.getElementById('col06');
-let col07 = document.getElementById('col07');
+let row9 = document.getElementById("row9");
+let col91 = document.getElementById("col91");
+let col92 = document.getElementById("col92");
+let col93 = document.getElementById("col93");
+let col94 = document.getElementById("col94");
+let col95 = document.getElementById("col95");
+let col96 = document.getElementById("col96");
+let col97 = document.getElementById("col97");
 
+let row10 = document.getElementById("row10");
+let col01 = document.getElementById("col01");
+let col02 = document.getElementById("col02");
+let col03 = document.getElementById("col03");
+let col04 = document.getElementById("col04");
+let col05 = document.getElementById("col05");
+let col06 = document.getElementById("col06");
+let col07 = document.getElementById("col07");
 
-function Filling(){
-    col1.innerHTML = `<img src="`+ arr[0].image + `" alt="img">`;
-    col2.innerHTML = arr[0].name;
-    col3.innerHTML = (arr[0].symbol).toUpperCase();
-    col4.innerHTML = `$` + arr[0].current_price;
-    col5.innerHTML = `$`+arr[0].fully_diluted_valuation;
-    col6.innerHTML = arr[0].market_cap_change_percentage_24h + "%";
+function filling() {
+  col1.innerHTML = `<img src="` + arr[0].image + `" alt="img">`;
+  col2.innerHTML = arr[0].name;
+  col3.innerHTML = arr[0].symbol.toUpperCase();
+  col4.innerHTML = `$` + arr[0].current_price;
+  col5.innerHTML = `$` + arr[0].fully_diluted_valuation;
+  col6.innerHTML = arr[0].market_cap_change_percentage_24h + "%";
 
-    let mktCap1 = parseFloat(arr[0].market_cap_change_percentage_24h);
+  let mktCap1 = parseFloat(arr[0].market_cap_change_percentage_24h);
 
-    if(mktCap1 > 0)
-    {
-        col6.style.color = "green";
-    }
-    else{
-        col6.style.color = "red";
-    }
+  if (mktCap1 > 0) {
+    col6.style.color = "green";
+  } else {
+    col6.style.color = "red";
+  }
 
-    col7.innerHTML = `Mkt Cap : $` + arr[0].market_cap;
+  col7.innerHTML = `Mkt Cap : $` + arr[0].market_cap;
 
+  col21.innerHTML = `<img src="` + arr[1].image + `" alt="img">`;
+  col22.innerHTML = arr[1].name;
+  col23.innerHTML = arr[1].symbol.toUpperCase();
+  col24.innerHTML = `$` + arr[1].current_price;
+  col25.innerHTML = `$` + arr[1].fully_diluted_valuation;
+  col26.innerHTML = arr[1].market_cap_change_percentage_24h + "%";
 
-    col21.innerHTML = `<img src="`+ arr[1].image + `" alt="img">`;
-    col22.innerHTML = arr[1].name;
-    col23.innerHTML = (arr[1].symbol).toUpperCase();
-    col24.innerHTML = `$` + arr[1].current_price;
-    col25.innerHTML = `$`+arr[1].fully_diluted_valuation;
-    col26.innerHTML = arr[1].market_cap_change_percentage_24h + "%";
+  let mktCap2 = parseFloat(arr[1].market_cap_change_percentage_24h);
 
-    let mktCap2 = parseFloat(arr[1].market_cap_change_percentage_24h);
+  if (mktCap2 > 0) {
+    col26.style.color = "green";
+  } else {
+    col26.style.color = "red";
+  }
+  col27.innerHTML = `Mkt Cap : $` + arr[1].market_cap;
 
-    if(mktCap2 > 0)
-    {
-        col26.style.color = "green";
-    }
-    else{
-        col26.style.color = "red";
-    }
-    col27.innerHTML = `Mkt Cap : $` + arr[1].market_cap;
+  col31.innerHTML = `<img src="` + arr[2].image + `" alt="img">`;
+  col32.innerHTML = arr[2].name;
+  col33.innerHTML = arr[2].symbol.toUpperCase();
+  col34.innerHTML = `$` + arr[2].current_price;
+  col35.innerHTML = `$` + arr[2].fully_diluted_valuation;
+  col36.innerHTML = arr[2].market_cap_change_percentage_24h + "%";
 
+  let mktCap3 = parseFloat(arr[2].market_cap_change_percentage_24h);
+  if (mktCap3 > 0) {
+    col36.style.color = "green";
+  } else {
+    col36.style.color = "red";
+  }
+  col37.innerHTML = `Mkt Cap : $` + arr[2].market_cap;
 
-    col31.innerHTML = `<img src="`+ arr[2].image + `" alt="img">`;
-    col32.innerHTML = arr[2].name;
-    col33.innerHTML = (arr[2].symbol).toUpperCase();
-    col34.innerHTML = `$` + arr[2].current_price;
-    col35.innerHTML = `$`+arr[2].fully_diluted_valuation;
-    col36.innerHTML = arr[2].market_cap_change_percentage_24h + "%";
+  col41.innerHTML = `<img src="` + arr[3].image + `" alt="img">`;
+  col42.innerHTML = arr[3].name;
+  col43.innerHTML = arr[3].symbol.toUpperCase();
+  col44.innerHTML = `$` + arr[3].current_price;
+  col45.innerHTML = `$` + arr[3].fully_diluted_valuation;
+  col46.innerHTML = arr[3].market_cap_change_percentage_24h + "%";
 
-    let mktCap3 = parseFloat(arr[2].market_cap_change_percentage_24h);
-    if(mktCap3 > 0)
-    {
-        col36.style.color = "green";
-    }
-    else{
-        col36.style.color = "red";
-    }
-    col37.innerHTML = `Mkt Cap : $` + arr[2].market_cap;
+  let mktCap4 = parseFloat(arr[3].market_cap_change_percentage_24h);
+  if (mktCap4 > 0) {
+    col46.style.color = "green";
+  } else {
+    col46.style.color = "red";
+  }
+  col47.innerHTML = `Mkt Cap : $` + arr[3].market_cap;
 
+  col51.innerHTML = `<img src="` + arr[4].image + `" alt="img">`;
+  col52.innerHTML = arr[4].name;
+  col53.innerHTML = arr[4].symbol.toUpperCase();
+  col54.innerHTML = `$` + arr[4].current_price;
+  col55.innerHTML = `$` + arr[4].fully_diluted_valuation;
+  col56.innerHTML = arr[4].market_cap_change_percentage_24h + "%";
 
-    col41.innerHTML = `<img src="`+ arr[3].image + `" alt="img">`;
-    col42.innerHTML = arr[3].name;
-    col43.innerHTML = (arr[3].symbol).toUpperCase();
-    col44.innerHTML = `$` + arr[3].current_price;
-    col45.innerHTML = `$`+arr[3].fully_diluted_valuation;
-    col46.innerHTML = arr[3].market_cap_change_percentage_24h + "%";
+  let mktCap5 = parseFloat(arr[4].market_cap_change_percentage_24h);
+  if (mktCap5 > 0) {
+    col56.style.color = "green";
+  } else {
+    col56.style.color = "red";
+  }
+  col57.innerHTML = `Mkt Cap : $` + arr[4].market_cap;
 
-    let mktCap4 = parseFloat(arr[3].market_cap_change_percentage_24h);
-    if(mktCap4 > 0)
-    {
-        col46.style.color = "green";
-    }
-    else{
-        col46.style.color = "red";
-    }
-    col47.innerHTML = `Mkt Cap : $` + arr[3].market_cap;
+  col61.innerHTML = `<img src="` + arr[5].image + `" alt="img">`;
+  col62.innerHTML = arr[5].name;
+  col63.innerHTML = arr[5].symbol.toUpperCase();
+  col64.innerHTML = `$` + arr[5].current_price;
+  col65.innerHTML = `$` + arr[5].fully_diluted_valuation;
+  col66.innerHTML = arr[5].market_cap_change_percentage_24h + "%";
 
+  let mktCap6 = parseFloat(arr[5].market_cap_change_percentage_24h);
+  if (mktCap6 > 0) {
+    col66.style.color = "green";
+  } else {
+    col66.style.color = "red";
+  }
+  col67.innerHTML = `Mkt Cap : $` + arr[5].market_cap;
 
-    col51.innerHTML = `<img src="`+ arr[4].image + `" alt="img">`;
-    col52.innerHTML = arr[4].name;
-    col53.innerHTML = (arr[4].symbol).toUpperCase();
-    col54.innerHTML = `$` + arr[4].current_price;
-    col55.innerHTML = `$`+arr[4].fully_diluted_valuation;
-    col56.innerHTML = arr[4].market_cap_change_percentage_24h + "%";
+  col71.innerHTML = `<img src="` + arr[6].image + `" alt="img">`;
+  col72.innerHTML = arr[6].name;
+  col73.innerHTML = arr[6].symbol.toUpperCase();
+  col74.innerHTML = `$` + arr[6].current_price;
+  col75.innerHTML = `$` + arr[6].fully_diluted_valuation;
+  col76.innerHTML = arr[6].market_cap_change_percentage_24h + "%";
 
-    let mktCap5 = parseFloat(arr[4].market_cap_change_percentage_24h);
-    if(mktCap5 > 0)
-    {
-        col56.style.color = "green";
-    }
-    else{
-        col56.style.color = "red";
-    }
-    col57.innerHTML = `Mkt Cap : $` + arr[4].market_cap;
+  let mktCap7 = parseFloat(arr[6].market_cap_change_percentage_24h);
+  if (mktCap7 > 0) {
+    col76.style.color = "green";
+  } else {
+    col76.style.color = "red";
+  }
+  col77.innerHTML = `Mkt Cap : $` + arr[6].market_cap;
 
+  col81.innerHTML = `<img src="` + arr[7].image + `" alt="img">`;
+  col82.innerHTML = arr[7].name;
+  col83.innerHTML = arr[7].symbol.toUpperCase();
+  col84.innerHTML = `$` + arr[7].current_price;
+  col85.innerHTML = `$` + arr[7].fully_diluted_valuation;
+  col86.innerHTML = arr[7].market_cap_change_percentage_24h + "%";
 
-    col61.innerHTML = `<img src="`+ arr[5].image + `" alt="img">`;
-    col62.innerHTML = arr[5].name;
-    col63.innerHTML = (arr[5].symbol).toUpperCase();
-    col64.innerHTML = `$` + arr[5].current_price;
-    col65.innerHTML = `$`+arr[5].fully_diluted_valuation;
-    col66.innerHTML = arr[5].market_cap_change_percentage_24h + "%";
+  let mktCap8 = parseFloat(arr[7].market_cap_change_percentage_24h);
+  if (mktCap8 > 0) {
+    col86.style.color = "green";
+  } else {
+    col86.style.color = "red";
+  }
+  col87.innerHTML = `Mkt Cap : $` + arr[7].market_cap;
 
-    let mktCap6 = parseFloat(arr[5].market_cap_change_percentage_24h);
-    if(mktCap6 > 0)
-    {
-        col66.style.color = "green";
-    }
-    else{
-        col66.style.color = "red";
-    }
-    col67.innerHTML = `Mkt Cap : $` + arr[5].market_cap;
+  col91.innerHTML = `<img src="` + arr[8].image + `" alt="img">`;
+  col92.innerHTML = arr[8].name;
+  col93.innerHTML = arr[8].symbol.toUpperCase();
+  col94.innerHTML = `$` + arr[8].current_price;
+  col95.innerHTML = `$` + arr[8].fully_diluted_valuation;
+  col96.innerHTML = arr[8].market_cap_change_percentage_24h + "%";
 
-    col71.innerHTML = `<img src="`+ arr[6].image + `" alt="img">`;
-    col72.innerHTML = arr[6].name;
-    col73.innerHTML = (arr[6].symbol).toUpperCase();
-    col74.innerHTML = `$` + arr[6].current_price;
-    col75.innerHTML = `$`+arr[6].fully_diluted_valuation;
-    col76.innerHTML = arr[6].market_cap_change_percentage_24h + "%";
+  let mktCap9 = parseFloat(arr[8].market_cap_change_percentage_24h);
+  if (mktCap9 > 0) {
+    col96.style.color = "green";
+  } else {
+    col96.style.color = "red";
+  }
+  col97.innerHTML = `Mkt Cap : $` + arr[8].market_cap;
 
-    let mktCap7 = parseFloat(arr[6].market_cap_change_percentage_24h);
-    if(mktCap7 > 0)
-    {
-        col76.style.color = "green";
-    }
-    else{
-        col76.style.color = "red";
-    }
-    col77.innerHTML = `Mkt Cap : $` + arr[6].market_cap;
+  col01.innerHTML = `<img src="` + arr[9].image + `" alt="img">`;
+  col02.innerHTML = arr[9].name;
+  col03.innerHTML = arr[9].symbol.toUpperCase();
+  col04.innerHTML = `$` + arr[9].current_price;
+  col05.innerHTML = `$` + arr[9].fully_diluted_valuation;
+  col06.innerHTML = arr[9].market_cap_change_percentage_24h + "%";
 
-
-    col81.innerHTML = `<img src="`+ arr[7].image + `" alt="img">`;
-    col82.innerHTML = arr[7].name;
-    col83.innerHTML = (arr[7].symbol).toUpperCase();
-    col84.innerHTML = `$` + arr[7].current_price;
-    col85.innerHTML = `$`+arr[7].fully_diluted_valuation;
-    col86.innerHTML = arr[7].market_cap_change_percentage_24h + "%";
-
-    let mktCap8 = parseFloat(arr[7].market_cap_change_percentage_24h);
-    if(mktCap8 > 0)
-    {
-        col86.style.color = "green";
-    }
-    else{
-        col86.style.color = "red";
-    }
-    col87.innerHTML = `Mkt Cap : $` + arr[7].market_cap;
-
-
-    col91.innerHTML = `<img src="`+ arr[8].image + `" alt="img">`;
-    col92.innerHTML = arr[8].name;
-    col93.innerHTML = (arr[8].symbol).toUpperCase();
-    col94.innerHTML = `$` + arr[8].current_price;
-    col95.innerHTML = `$`+arr[8].fully_diluted_valuation;
-    col96.innerHTML = arr[8].market_cap_change_percentage_24h + "%";
-
-    let mktCap9 = parseFloat(arr[8].market_cap_change_percentage_24h);
-    if(mktCap9 > 0)
-    {
-        col96.style.color = "green";
-    }
-    else{
-        col96.style.color = "red";
-    }
-    col97.innerHTML = `Mkt Cap : $` + arr[8].market_cap;
-
-    col01.innerHTML = `<img src="`+ arr[9].image + `" alt="img">`;
-    col02.innerHTML = arr[9].name;
-    col03.innerHTML = (arr[9].symbol).toUpperCase();
-    col04.innerHTML = `$` + arr[9].current_price;
-    col05.innerHTML = `$`+arr[9].fully_diluted_valuation;
-    col06.innerHTML = arr[9].market_cap_change_percentage_24h + "%";
-
-    let mktCap10 = parseFloat(arr[9].market_cap_change_percentage_24h);
-    if(mktCap10 > 0)
-    {
-        col06.style.color = "green";
-    }
-    else{
-        col06.style.color = "red";
-    }
-    col07.innerHTML = `Mkt Cap : $` + arr[9].market_cap;
+  let mktCap10 = parseFloat(arr[9].market_cap_change_percentage_24h);
+  if (mktCap10 > 0) {
+    col06.style.color = "green";
+  } else {
+    col06.style.color = "red";
+  }
+  col07.innerHTML = `Mkt Cap : $` + arr[9].market_cap;
 }
 
+filling();
 
-Filling();
+function sortByPercentage() {
+  arr.sort(
+    (a, b) =>
+      parseFloat(b.market_cap_change_percentage_24h) -
+      parseFloat(a.market_cap_change_percentage_24h)
+  );
+  filling();
+}
 
+percentageBtn.addEventListener("click", sortByPercentage);
 
+function sortByMarketCap() {
+  arr.sort((a, b) => parseFloat(b.market_cap) - parseFloat(a.market_cap));
+  filling();
+}
+mktCapBtn.addEventListener("click", sortByMarketCap);
 
+let searchBtn = document.getElementById('searchBtn');
+let searchBar = document.getElementById('searchBar');
 
+let tableContainer = document.getElementById('tableContainer');
 
+let tableRows = document.querySelectorAll('#myTable tr');
 
-fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=1&sparkline=false')
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    return response.json();
-  })
-  .then(data => {
-    console.log(data);
-    // Process the fetched data here
-  })
-  .catch(error => {
-    console.error('There was a problem with the fetch operation:', error);
-  });
+searchBtn.addEventListener('click', function() {
+    let searchInput = searchBar.value.trim().toLowerCase();
+    
+    tableRows.forEach(row => {
+        let rowData = row.textContent.trim().toLowerCase();
+        if (rowData.includes(searchInput)) {
+            row.style.display = 'table-row'; // Show the row
+        } else {
+            row.style.display = 'none'; // Hide the row
+        }
+    });
+});
